@@ -11,10 +11,10 @@
   ],
   "license": "MIT",
   "main": "dist/angular-timeago.js",
-  "name": "angular-timeago-pl",
+  "name": "angular-timeago",
   "repository": {
     "type": "git",
     "url": "git://github.com/cooltowi/angular-timeago-pl.git"
   },
-  "version": "0.4.9"
+  "version": "0.4.6"
 }
