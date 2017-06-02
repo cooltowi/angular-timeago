@@ -3,11 +3,11 @@
     "name": "Brian Park",
     "email": "yaru22@gmail.com"
   },
-  "name": "angular-timeago",
+  "name": "angular-timeago-pl",
   "description": "Angular directive/filter/service for formatting date so that it displays how long ago the given time was compared to now.",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "license": "MIT",
-  "homepage": "https://github.com/yaru22/angular-timeago",
+  "homepage": "https://github.com/cooltowi/angular-timeago-pl",
   "repository": {
     "type": "git",
     "url": "git://github.com/cooltowi/angular-timeago-pl.git"
