@@ -1,7 +1,7 @@
 /**
  * Angular directive/filter/service for formatting date so that it displays how long ago the given time was compared to now.
- * @version v0.4.6 - 2017-06-02
- * @link https://github.com/yaru22/angular-timeago
+ * @version v0.4.7 - 2017-06-02
+ * @link https://github.com/cooltowi/angular-timeago-pl
  * @author Brian Park <yaru22@gmail.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
