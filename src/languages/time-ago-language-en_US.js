@@ -15,6 +15,7 @@ angular.module('yaru22.angular-timeago').config(function(timeAgoSettings) {
     days: '%d days',
     month: 'about a month',
     months: '%d months',
+    monthsHalf: '%d months',
     year: 'about a year',
     years: '%d years',
     numbers: []

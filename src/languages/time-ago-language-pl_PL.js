@@ -15,8 +15,9 @@ angular.module('yaru22.angular-timeago').config(function(timeAgoSettings) {
     days: '%d dni',
     month: 'około miesiąca',
     months: '%d miesięcy',
+    monthsHalf: '%d miesięce',
     year: 'około roku',
-    years: '%d lat',
+    years: '%d lata',
     numbers: []
   };
 });

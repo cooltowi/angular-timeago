@@ -67,6 +67,7 @@ angular.module('yaru22.angular-timeago').factory('timeAgo', function($filter, ti
       hours < breakpoints.hoursToDays && substitute($l.day, 1) ||
       days < breakpoints.daysToMonth && substitute($l.days, days) ||
       days < breakpoints.daysToMonths && substitute($l.month, 1) ||
+      days < breakpoints.daysToYearHalf && substitute($l.monthsHalf, days / 30) ||
       days < breakpoints.daysToYear && substitute($l.months, days / 30) ||
       years < breakpoints.yearToYears && substitute($l.year, 1) ||
       substitute($l.years, years);

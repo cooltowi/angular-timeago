@@ -1,6 +1,6 @@
 /**
  * Angular directive/filter/service for formatting date so that it displays how long ago the given time was compared to now.
- * @version v0.4.5 - 2017-04-17
+ * @version v0.4.5 - 2017-06-02
  * @link https://github.com/yaru22/angular-timeago
  * @author Brian Park <yaru22@gmail.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
@@ -141,6 +141,7 @@ angular.module('yaru22.angular-timeago').config(["timeAgoSettings", function(tim
     days: '%d days',
     month: 'about a month',
     months: '%d months',
+    monthsHalf: '%d months',
     year: 'about a year',
     years: '%d years',
     numbers: []
@@ -325,8 +326,9 @@ angular.module('yaru22.angular-timeago').config(["timeAgoSettings", function(tim
     days: '%d dni',
     month: 'około miesiąca',
     months: '%d miesięcy',
+    monthsHalf: '%d miesięce',
     year: 'około roku',
-    years: '%d lat',
+    years: '%d lata',
     numbers: []
   };
 }]);
@@ -538,6 +540,7 @@ angular.module('yaru22.angular-timeago').constant('timeAgoSettings', {
     hoursToDays: 42, // in hours
     daysToMonth: 30, // in days
     daysToMonths: 45, // in days
+    daysToYearHalf: 131, // in days
     daysToYear: 365, // in days
     yearToYears: 1.5 // in year
   }
@@ -639,6 +642,7 @@ angular.module('yaru22.angular-timeago').factory('timeAgo', ["$filter", "timeAgo
       hours < breakpoints.hoursToDays && substitute($l.day, 1) ||
       days < breakpoints.daysToMonth && substitute($l.days, days) ||
       days < breakpoints.daysToMonths && substitute($l.month, 1) ||
+      days < breakpoints.daysToYearHalf && substitute($l.monthsHalf, days / 30) ||
       days < breakpoints.daysToYear && substitute($l.months, days / 30) ||
       years < breakpoints.yearToYears && substitute($l.year, 1) ||
       substitute($l.years, years);

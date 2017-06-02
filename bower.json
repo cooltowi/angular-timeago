@@ -4,7 +4,7 @@
     "name": "Brian Park"
   },
   "description": "Angular directive/filter/service for formatting date so that it displays how long ago the given time was compared to now.",
-  "homepage": "https://github.com/yaru22/angular-timeago",
+  "homepage": "https://github.com/cooltowi/angular-timeago-pl",
   "ignore": [
     "demo",
     "test"
@@ -14,7 +14,7 @@
   "name": "angular-timeago",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yaru22/angular-timeago.git"
+    "url": "git://github.com/cooltowi/angular-timeago-pl.git"
   },
   "version": "0.4.5"
 }

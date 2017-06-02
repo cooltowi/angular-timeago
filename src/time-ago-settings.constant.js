@@ -15,6 +15,7 @@ angular.module('yaru22.angular-timeago').constant('timeAgoSettings', {
     hoursToDays: 42, // in hours
     daysToMonth: 30, // in days
     daysToMonths: 45, // in days
+    daysToYearHalf: 131, // in days
     daysToYear: 365, // in days
     yearToYears: 1.5 // in year
   }
