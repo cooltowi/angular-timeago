@@ -326,7 +326,7 @@ angular.module('yaru22.angular-timeago').config(["timeAgoSettings", function(tim
     days: '%d dni',
     month: 'około miesiąca',
     months: '%d miesięcy',
-    monthsHalf: '%d miesięce',
+    monthsHalf: '%d miesiące',
     year: 'około roku',
     years: '%d lata',
     numbers: []
